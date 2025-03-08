@@ -1,0 +1,9 @@
+
+type Query {
+    sayHello: String
+    sayHelloTo(input: HelloInput!): String
+}
+
+input HelloInput {
+    name: String!
+}
